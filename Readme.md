@@ -59,7 +59,7 @@ That's all. Now you can run __monitor_test.sh__ and monitoring process will be s
 #### Testing 
 To check the correctness of monitor workability, some tests was done on real  MySQL 5.0.x replicating Master-Slave configuration that was under real load. The Master and Slave are located in the cloud and has differ IPs.
 
-<a href="http://imgur.com/el3AS"><img src="http://i.imgur.com/el3AS.png" title="MySQL replication monitoring test" /></a>
+<a href="http://imgur.com/TM1B4"><img src="http://i.imgur.com/TM1B4.png" title="MySQL replication monitoring test" /></a>
 
 It can be noticed that the replication is alive and have quite good state. The swinging  of discord factor in quite big range can be explained by quite big unstable load on server. The Desync in 1% is usually normal side effect in this case because, as it was explained above, the measurement of the DBs is provided sequentially and this small inadequacy is explained just this fact.
 
